@@ -12,13 +12,16 @@ python3 main.py
    
 2. Navega al directorio del proyecto:
    cd app
+
+3-Crea el entorno virtual
+    python3 -m venv env
    
-3. Activa el entorno virtual:
+4. Activa el entorno virtual:
    source env/bin/activate
    
-4. Instala las dependencias del proyecto:
+5. Instala las dependencias del proyecto:
    pip3 install -r requirements.txt
    
-5. Ejecuta el archivo principal:
+6. Ejecuta el archivo principal:
    python3 main.py
 ```
