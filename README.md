@@ -8,7 +8,7 @@ python3 main.py
 
 ```sh
 1. Clona el repositorio con el siguiente comando:
-   git clone [https://github.com/monick96/python-practice2.git]
+   git clone https://github.com/monick96/python-practice2.git
    
 2. Navega al directorio del proyecto:
    cd app
