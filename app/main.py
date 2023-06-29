@@ -12,7 +12,9 @@ def run():
   countries = list(map(lambda x: x['Country/Territory'], data))
   percentages = list(map(lambda x: x['World Population Percentage'], data))
   '''
+  
   '''seccion codigo con pandas'''
+  
   df= pd.read_csv('data.csv')
   df = df[df['Continent'] == 'Africa']
   countries = df['Country/Territory'].values
