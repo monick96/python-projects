@@ -2,7 +2,7 @@ import utils
 import rcsv
 import charts
 import pandas as pd
-
+#error en salida de filtro por input 
 def run():
   '''
   #codigo sin pandas
@@ -13,7 +13,9 @@ def run():
   percentages = list(map(lambda x: x['World Population Percentage'], data))
   '''
   
-  '''seccion codigo con pandas'''
+  '''
+    seccion codigo con pandas
+  '''
   
   df= pd.read_csv('data.csv')
   df = df[df['Continent'] == 'Africa']
